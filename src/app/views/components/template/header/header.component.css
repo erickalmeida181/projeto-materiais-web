@@ -1,0 +1,12 @@
+.header{
+
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(13, 173, 174);
+}
+.header p{
+    color: rgb(244, 247, 250);
+    height: 20px;
+}

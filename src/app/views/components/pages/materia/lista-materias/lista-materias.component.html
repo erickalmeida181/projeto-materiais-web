@@ -1,0 +1,22 @@
+<div class="geral">
+<div class="dvblog">
+    <h1 style="color: #666666;">Blog</h1>
+</div>
+<div> 
+    <div class="materias-container">
+        <div class="materia" *ngFor="let materia of materias">
+            <img src="{{ baseUrl }}upload/{{ materia.imagem }}">     
+            <div class="txtMateria">
+            <h5 *ngIf="materia.titulo.length < 23" style="color:rgb(5, 165, 146); margin: 20px 0 0 25px;">{{ materia.titulo }}</h5>     
+            <h5 *ngIf="materia.titulo.length > 26" style="color:rgb(5, 165, 146); margin: 20px 0 0 25px;">{{ materia.titulo.substring(0,23) }} ...</h5> 
+            <p style="margin: 5px 0 25px 25px; color: #666666; font-size: 10px;">{{ materia.descricao.substring(0,38) }} ...</p>
+            <a style="color:rgb(5, 165, 146); margin: 0 0 0 120px; font-weight: bold;text-decoration: none;" routerLink="materia/detalhe/{{materia.id}}">LER MAIS</a><br>
+            </div>
+        </div>
+        <div class="paginacao">
+            <button *ngIf="page > 1" (click)="Anterior()">Anterior</button>
+            <button *ngIf="validaBotao == true"style="margin-left: 5px;" (click)="Proximo()">Proximo</button>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,22 @@
+.geraldetalhe{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.blog{
+    margin-top: 30px;
+}
+.titulo{
+    margin: 10px 0 10px 0;
+    color: #666666;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dvimg .imagem{
+    width: 319px;
+    height: 150;
+}
+.textoCompleto{
+    color: #666666;
+    width: 100%;
+}

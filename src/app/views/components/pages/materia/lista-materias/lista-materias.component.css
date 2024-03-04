@@ -1,0 +1,31 @@
+.geral{
+    height: 100%;
+}
+.materias-container{
+
+ height: 120px;
+
+
+}
+.materia{
+    height: 120px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgb(183, 179, 179);
+}
+.materia img{
+    height: 120px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.txtMateria{
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.paginacao{
+    float: left;
+    margin-bottom: 10px;
+}

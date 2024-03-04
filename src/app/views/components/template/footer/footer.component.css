@@ -1,0 +1,17 @@
+.footer{
+
+    height: 114px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 56, 57, 0.989);
+    width: 100%;
+}
+.footer p{
+    color: rgb(244, 247, 250);
+}
+.texto{
+    text-align: center;
+    font-size: 10px;
+}
